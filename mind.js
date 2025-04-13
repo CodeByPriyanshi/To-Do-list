@@ -2,7 +2,7 @@ let inputbox=document.getElementById("input");
 let listCon=document.getElementById("list-container");
 let addbtn=document.getElementById("addtask");
 addbtn.addEventListener("click",function(){
-    if(inputbox ===""){
+    if(inputbox.value ===""){
         alert("You must write somthing!");
     }
     else{
